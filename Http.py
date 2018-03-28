@@ -34,5 +34,3 @@ for line in content:
 a = "posted @ 2018-03-04 22:28 Vamei 阅读(570) 评论(1)"
 b = re.search(pattern1, a)
 print(b.group(1),b.group(2))
-
-
