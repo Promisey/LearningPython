@@ -9,7 +9,10 @@ def decorator_timer(old_function):
         return result
     return new_function
 
+
 @decorator_timer
 def add(a, b):
     return a**99+b**99
+
+
 print(add(9999, 9999))
